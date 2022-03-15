@@ -2,28 +2,29 @@
 
 Start an instance of rekor (you can use docker-compose in the rekor repository if you prefer)
 
-create a virtual enviroment:
+### Create a virtual enviroment:
 
 `python3 -m venv .env`
+
 `source .env/bin/activate`
 
-install the request library
+### Install the request library
 `pip3 install requests`
 
-Download an official RPM
+### Download an official RPM:
 https://access.redhat.com/downloads/content/package-browser
 
-Rename to your rpm
+### Rename to your rpm
 
 ```python
 rpm = "My_Downloaded_RPM.rpm"
 ```
 
-Run the code
+### Run the code
 
 `python3 rpm.py`
 
-Example run
+### Example run
 
 ```bash
 python3 main.py
